@@ -1,0 +1,645 @@
+{
+  "quiz": {
+    "id": 19088,
+    "title": "Object-Orientation Fundamentals Quiz",
+    "html_url": "https://learning.flatironschool.com/courses/3299/quizzes/19088",
+    "mobile_url": "https://learning.flatironschool.com/courses/3299/quizzes/19088?force_user=1&persist_headless=1",
+    "description": "<div>\n<div><span>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</span></div>\n<br>\n<div><span>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</span></div>\n</div>",
+    "quiz_type": "assignment",
+    "time_limit": null,
+    "timer_autosubmit_disabled": false,
+    "shuffle_answers": true,
+    "show_correct_answers": true,
+    "scoring_policy": "keep_highest",
+    "allowed_attempts": 3,
+    "one_question_at_a_time": false,
+    "question_count": 11,
+    "points_possible": 11.0,
+    "cant_go_back": false,
+    "access_code": null,
+    "ip_filter": null,
+    "due_at": null,
+    "lock_at": null,
+    "unlock_at": null,
+    "published": false,
+    "unpublishable": true,
+    "locked_for_user": true,
+    "lock_info": {
+      "missing_permission": "participate_as_student",
+      "asset_string": "quizzes:quiz_19088"
+    },
+    "lock_explanation": "This quiz is currently locked.",
+    "hide_results": null,
+    "show_correct_answers_at": null,
+    "hide_correct_answers_at": null,
+    "all_dates": [
+      {
+        "due_at": null,
+        "unlock_at": null,
+        "lock_at": null,
+        "base": true
+      }
+    ],
+    "can_unpublish": true,
+    "can_update": true,
+    "require_lockdown_browser": false,
+    "require_lockdown_browser_for_results": false,
+    "require_lockdown_browser_monitor": false,
+    "lockdown_browser_monitor_data": "",
+    "speed_grader_url": null,
+    "permissions": {
+      "manage": true,
+      "read": true,
+      "create": true,
+      "update": true,
+      "submit": true,
+      "preview": true,
+      "delete": true,
+      "read_statistics": true,
+      "grade": true,
+      "review_grades": true,
+      "view_answer_audits": true
+    },
+    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/3299/quizzes/19088/reports",
+    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/3299/quizzes/19088/statistics",
+    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/3299/quizzes/19088/submission_users/message",
+    "section_count": 1,
+    "important_dates": false,
+    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/3299/quizzes/19088/submission_versions",
+    "assignment_id": 129363,
+    "one_time_results": false,
+    "only_visible_to_overrides": false,
+    "assignment_group_id": 6376,
+    "show_correct_answers_last_attempt": true,
+    "version_number": 4,
+    "has_access_code": false,
+    "post_to_sis": false,
+    "migration_id": "gef228c4b35a9c86452de0c15495299a2",
+    "question_types": [
+      "multiple_choice_question"
+    ]
+  },
+  "questions": [
+    {
+      "quiz_id": 19088,
+      "id": 120534,
+      "quiz_group_id": null,
+      "assessment_question_id": 135522,
+      "position": null,
+      "question_name": "OO Concepts",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>A class is like a blueprint that defines how to build an object.</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<strong>Source/s</strong>: <a title=\"Classes And Instances\" href=\"/courses/3299/pages/classes-and-instances\" target=\"_blank\">Classes and Instances</a>",
+      "answers": [
+        {
+          "id": 7425,
+          "text": "True",
+          "html": "",
+          "comments": "",
+          "comments_html": "Perfect! Objects are instantiated from classes and have access to the instance methods and variables defined in the class.",
+          "weight": 100.0
+        },
+        {
+          "id": 8765,
+          "text": "False",
+          "html": "",
+          "comments": "",
+          "comments_html": "You might be confusing objects and classes. Be sure to review the sources listed in the feedback.",
+          "weight": 0.0
+        },
+        {
+          "id": 4427,
+          "text": "I don't know",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19088,
+      "id": 120535,
+      "quiz_group_id": null,
+      "assessment_question_id": 135523,
+      "position": null,
+      "question_name": "OO Syntax",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>To define a class, what syntax is used?</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<strong>Source/s</strong>: <a title=\"Classes And Instances\" href=\"/courses/3299/pages/classes-and-instances\" target=\"_blank\">Classes and Instances</a>",
+      "answers": [
+        {
+          "id": 7479,
+          "text": "",
+          "html": "<div class=\"highlight highlight-source-ruby\">\n<pre><span class=\"pl-en\">class</span> <span class=\"pl-v\">Pet</span>\n<span class=\"pl-en\">end</span></pre>\n</div>",
+          "comments": "",
+          "comments_html": "Correct! Class names must be capitalized, and the declaration always starts with <code>class</code> and ends with <code>end</code>.",
+          "weight": 100.0
+        },
+        {
+          "id": 7687,
+          "text": "",
+          "html": "<div class=\"highlight highlight-source-ruby\">\n<pre><span class=\"pl-en\">Class</span> <span class=\"pl-v\">Pet</span>\n<span class=\"pl-en\">end</span></pre>\n</div>",
+          "comments": "",
+          "comments_html": "This syntax looks a little off. Try running it in IRB to see what happens.",
+          "weight": 0.0
+        },
+        {
+          "id": 1232,
+          "text": "",
+          "html": "<pre><span class=\"pl-en\">Class</span> <span class=\"pl-en\">pet</span>\n<span class=\"pl-en\">end</span></pre>",
+          "comments": "",
+          "comments_html": "Something is not right about this. Try running this code in IRB to see the result.",
+          "weight": 0.0
+        },
+        {
+          "id": 5706,
+          "text": "",
+          "html": "<pre><span class=\"pl-k\">class</span> <span class=\"pl-en\">pet</span>\n<span class=\"pl-k\">end</span></pre>",
+          "comments": "",
+          "comments_html": "Something isn't quite right with this syntax. Try running it in IRB to see what happens.",
+          "weight": 0.0
+        },
+        {
+          "id": 1794,
+          "text": "I don't know",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19088,
+      "id": 120536,
+      "quiz_group_id": null,
+      "assessment_question_id": 135524,
+      "position": null,
+      "question_name": "OO Syntax",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Consider the following code:</p>\n<pre><span class=\"pl-k\">class</span> <span class=\"pl-v\">Pet</span>\n  <span class=\"pl-k\">def</span> <span class=\"pl-en\">initialize</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">name</span><span class=\"pl-kos\">)</span>\n    <span class=\"pl-c1\">@name</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">name</span>\n  <span class=\"pl-k\">end</span>\n<span class=\"pl-k\">end</span>\n\n<span class=\"pl-s1\">dog</span> <span class=\"pl-c1\">=</span> <span class=\"pl-v\">Pet</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">new</span><span class=\"pl-kos\">(</span><span class=\"pl-s\">\"Harpo\"</span><span class=\"pl-kos\">)</span></pre>\n<p><span>In the example above,&nbsp;</span><code>Pet.new(\"Harpo\")</code><span>&nbsp;will instantiate a new instance of the&nbsp;</span><code>Pet</code><span>&nbsp;class.</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<strong>Source/s</strong>: <a title=\"Classes And Instances\" href=\"/courses/3299/pages/classes-and-instances\" target=\"_blank\">Classes and Instances</a>",
+      "answers": [
+        {
+          "id": 9479,
+          "text": "True",
+          "html": "",
+          "comments": "",
+          "comments_html": "Yes! The class has been declared correctly, so a new instance will be returned when the code is run.",
+          "weight": 100.0
+        },
+        {
+          "id": 8477,
+          "text": "False",
+          "html": "",
+          "comments": "",
+          "comments_html": "Run the code. Why did you think a new instance of <code>Pet</code> would not be created?",
+          "weight": 0.0
+        },
+        {
+          "id": 1571,
+          "text": "I don't know",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19088,
+      "id": 120537,
+      "quiz_group_id": null,
+      "assessment_question_id": 135525,
+      "position": null,
+      "question_name": "OO Syntax",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Consider the following code:</p>\n<pre><span class=\"pl-k\">class</span> <span class=\"pl-v\">Pet</span>\n  <span class=\"pl-k\">def</span> <span class=\"pl-en\">initialize</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">name</span><span class=\"pl-kos\">)</span>\n    <span class=\"pl-c1\">@name</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">name</span>\n  <span class=\"pl-k\">end</span>\n\n  <span class=\"pl-k\">def</span> <span class=\"pl-en\">name</span><span class=\"pl-c1\">=</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">name</span><span class=\"pl-kos\">)</span>\n    <span class=\"pl-c1\">@name</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">name</span>\n  <span class=\"pl-k\">end</span>\n\n  <span class=\"pl-k\">def</span> <span class=\"pl-en\">name</span>\n    <span class=\"pl-c1\">@name</span>\n  <span class=\"pl-k\">end</span>\n<span class=\"pl-k\">end</span>\n\n<span class=\"pl-s1\">dog</span> <span class=\"pl-c1\">=</span> <span class=\"pl-v\">Pet</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">new</span></pre>\n<p><code>Pet.new</code><span>&nbsp;in this example will instantiate a new instance of the&nbsp;</span><code>Pet</code><span>&nbsp;class.</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<strong>Source/s</strong>: <a title=\"Object Initialization\" href=\"/courses/3299/pages/object-initialization\" target=\"_blank\">Object Initialization</a>",
+      "answers": [
+        {
+          "id": 5390,
+          "text": "False",
+          "html": "",
+          "comments": "",
+          "comments_html": "Correct! We need to provide a name when instantiating an instance of the <code>Pet</code> class because that's what <code>initialize</code> expects.",
+          "weight": 100.0
+        },
+        {
+          "id": 4791,
+          "text": "True",
+          "html": "",
+          "comments": "",
+          "comments_html": "This is a bit of a tough question. Take a look at <code>initialize</code> and then the last line of code. What do you notice?",
+          "weight": 0.0
+        },
+        {
+          "id": 49,
+          "text": "I don't know",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19088,
+      "id": 120538,
+      "quiz_group_id": null,
+      "assessment_question_id": 135526,
+      "position": null,
+      "question_name": "Getter Methods",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Consider the following code:</p>\n<pre><span class=\"pl-k\">class</span> <span class=\"pl-v\">Pet</span>\n  <span class=\"pl-k\">def</span> <span class=\"pl-en\">initialize</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">name</span><span class=\"pl-kos\">)</span>\n    <span class=\"pl-c1\">@name</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">name</span>\n  <span class=\"pl-k\">end</span>\n\n  <span class=\"pl-k\">def</span> <span class=\"pl-en\">name</span><span class=\"pl-c1\">=</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">name</span><span class=\"pl-kos\">)</span>\n    <span class=\"pl-c1\">@name</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">name</span>\n  <span class=\"pl-k\">end</span>\n\n  <span class=\"pl-k\">def</span> <span class=\"pl-en\">name</span>\n    <span class=\"pl-c1\">@name</span>\n  <span class=\"pl-k\">end</span>\n<span class=\"pl-k\">end<br><br></span></pre>\n<pre><span class=\"pl-s1\">rabbit</span> <span class=\"pl-c1\">=</span> <span class=\"pl-v\">Pet</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">new</span><span class=\"pl-kos\">(</span><span class=\"pl-s\">\"Jabby\"</span><span class=\"pl-kos\">)</span>\n<span class=\"pl-s1\">rabbit</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">name</span></pre>\n<p><code>rabbit.name</code><span>&nbsp;in this example will return&nbsp;</span><code>\"Jabby\"</code><span>.</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<strong>Source/s</strong>: <a title=\"Object Attributes\" href=\"/courses/3299/pages/object-attributes\" target=\"_blank\">Object Attributes</a>",
+      "answers": [
+        {
+          "id": 5600,
+          "text": "True",
+          "html": "",
+          "comments": "",
+          "comments_html": "Yes! The dev created a getter method that returns the value stored in <code>@name</code>.",
+          "weight": 100.0
+        },
+        {
+          "id": 1674,
+          "text": "False",
+          "html": "",
+          "comments": "",
+          "comments_html": "What happens when you run the code? How and why does that differ from what you expected? Which methods are available in <code>Pet</code> and what do they do?",
+          "weight": 0.0
+        },
+        {
+          "id": 639,
+          "text": "I don't know",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19088,
+      "id": 120539,
+      "quiz_group_id": null,
+      "assessment_question_id": 135527,
+      "position": null,
+      "question_name": "OO Syntax",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>Consider the following code:</span></p>\n<pre><span class=\"pl-k\">class</span> <span class=\"pl-v\">Pet</span>\n  <span class=\"pl-k\">def</span> <span class=\"pl-en\">initialize</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">name</span><span class=\"pl-kos\">)</span>\n    <span class=\"pl-c1\">@name</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">name</span>\n  <span class=\"pl-k\">end</span>\n\n  <span class=\"pl-k\">def</span> <span class=\"pl-en\">name</span>\n    <span class=\"pl-c1\">@name</span>\n  <span class=\"pl-k\">end</span>\n<span class=\"pl-k\">end</span></pre>\n<pre><span class=\"pl-s1\">rabbit</span> <span class=\"pl-c1\">=</span> <span class=\"pl-v\">Pet</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">new</span><span class=\"pl-kos\">(</span><span class=\"pl-s\">\"Jabby\"</span><span class=\"pl-kos\">)</span>\n<span class=\"pl-s1\">rabbit</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">name</span><span class=\"pl-kos\">(</span><span class=\"pl-s\">\"Chokola\"</span><span class=\"pl-kos\">)</span></pre>\n<p><span>What will&nbsp;<code>rabbit.name(\"Chokola\")</code>&nbsp;in this example return?</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<strong>Source/s</strong>: <a title=\"Object Attributes\" href=\"/courses/3299/pages/object-attributes\" target=\"_blank\">Object Attributes</a>",
+      "answers": [
+        {
+          "id": 8722,
+          "text": "",
+          "html": "<pre><span>ArgumentError</span></pre>",
+          "comments": "",
+          "comments_html": "Perfect! The <code>name</code> method wasn't expecting any arguments, so it produced an error.",
+          "weight": 100.0
+        },
+        {
+          "id": 5940,
+          "text": "\"Chokola\"",
+          "html": "",
+          "comments": "",
+          "comments_html": "Is <code>name</code> a getter or a setter? What happens when you run the code? Why?",
+          "weight": 0.0
+        },
+        {
+          "id": 8584,
+          "text": "\"Jabby\"",
+          "html": "",
+          "comments": "",
+          "comments_html": "A lot of people would expect it to return \"Jabby\", but it doesn't. What happens when you run this code? Why?",
+          "weight": 0.0
+        },
+        {
+          "id": 7059,
+          "text": "I don't know",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19088,
+      "id": 120540,
+      "quiz_group_id": null,
+      "assessment_question_id": 135528,
+      "position": null,
+      "question_name": "OO Syntax",
+      "question_type": "short_answer_question",
+      "question_text": "<p><span>Consider the following code:</span></p>\n<div class=\"highlight highlight-source-ruby\">\n<pre><span class=\"pl-k\">class</span> <span class=\"pl-v\">Pet</span>\n  <span class=\"pl-k\">def</span> <span class=\"pl-en\">initialize</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">name</span><span class=\"pl-kos\">)</span>\n    <span class=\"pl-c1\">@name</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">name</span>\n  <span class=\"pl-k\">end</span>\n\n  <span class=\"pl-k\">def</span> <span class=\"pl-en\">name</span><span class=\"pl-c1\">=</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">name</span><span class=\"pl-kos\">)</span>\n    <span class=\"pl-c1\">@name</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">name</span>\n  <span class=\"pl-k\">end</span>\n  \n  <span class=\"pl-k\">def</span> <span class=\"pl-en\">name</span>\n    <span class=\"pl-c1\">@name</span>\n  <span class=\"pl-k\">end</span>\n<span class=\"pl-k\">end</span></pre>\n</div>\n<div class=\"highlight highlight-source-ruby\">\n<pre><span class=\"pl-s1\">rabbit</span> <span class=\"pl-c1\">=</span> <span class=\"pl-v\">Pet</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">new</span><span class=\"pl-kos\">(</span><span class=\"pl-s\">\"Jabby\"</span><span class=\"pl-kos\">)</span>\n<span class=\"pl-s1\">rabbit</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">name</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s\">\"Chokola\"</span></pre>\n</div>\n<p><span>After running the code in the example above, what will&nbsp;<code>rabbit.name</code>&nbsp;return?</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "<p>Not quite. Look at the last line of code. What's happening there?</p>",
+      "neutral_comments_html": "<strong>Source/s</strong>: <a title=\"Object Attributes\" href=\"/courses/3299/pages/object-attributes\" target=\"_blank\">Object Attributes</a>",
+      "answers": [
+        {
+          "id": 720,
+          "text": "Chokola",
+          "comments": "",
+          "comments_html": "<p>Yes! The rabbit's name was reassigned to \"Chokola\".</p>",
+          "weight": 100
+        },
+        {
+          "id": 2932,
+          "text": "\"Chokola\"",
+          "comments": "",
+          "comments_html": "<p>Yes! The rabbit's name was reassigned to \"Chokola\".</p>",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19088,
+      "id": 120541,
+      "quiz_group_id": null,
+      "assessment_question_id": 135529,
+      "position": null,
+      "question_name": "OO Concepts",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>A macro in Ruby is code that, in effect, writes more Ruby code.</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<strong>Source/s</strong>: <a title=\"Attribute Accessors\" href=\"/courses/3299/pages/attribute-accessors\" target=\"_blank\">Attribute Accessors</a>",
+      "answers": [
+        {
+          "id": 8011,
+          "text": "True",
+          "html": "",
+          "comments": "",
+          "comments_html": "Correct! Macros are considered metaprogramming and they help us, well, add more code or functionality to our code!",
+          "weight": 100.0
+        },
+        {
+          "id": 1544,
+          "text": "False",
+          "html": "",
+          "comments": "",
+          "comments_html": "Review the resources and pay special attention to the definition of a macro.",
+          "weight": 0.0
+        },
+        {
+          "id": 449,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19088,
+      "id": 120542,
+      "quiz_group_id": null,
+      "assessment_question_id": 135530,
+      "position": null,
+      "question_name": "OO Syntax",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>The&nbsp;</span><code>attr_reader</code><span>&nbsp;macro, followed by the attribute name, creates a setter method.</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<strong>Source/s</strong>: <a title=\"Attribute Accessors\" href=\"/courses/3299/pages/attribute-accessors\" target=\"_blank\">Attribute Accessors</a>",
+      "answers": [
+        {
+          "id": 9919,
+          "text": "False",
+          "html": "",
+          "comments": "",
+          "comments_html": "Perfect! The <code>attr_reader</code> macro allows the attributes that follow to be read, but not written to.",
+          "weight": 100.0
+        },
+        {
+          "id": 4760,
+          "text": "True",
+          "html": "",
+          "comments": "",
+          "comments_html": "Check out the differences between <code>attr_reader</code>, <code>attr_writer</code>, and <code>attr_accessor</code>.",
+          "weight": 0.0
+        },
+        {
+          "id": 9774,
+          "text": "I don't know",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19088,
+      "id": 120543,
+      "quiz_group_id": null,
+      "assessment_question_id": 135531,
+      "position": null,
+      "question_name": "OO Syntax",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Consider the following code:</p>\n<div class=\"highlight highlight-source-ruby\">\n<pre><span class=\"pl-k\">class</span> <span class=\"pl-v\">Pet</span>\n  <span class=\"pl-en\">attr_reader</span> <span class=\"pl-pds\">:name</span>\n  <span class=\"pl-en\">attr_writer</span> <span class=\"pl-pds\">:name</span>\n  \n  <span class=\"pl-k\">def</span> <span class=\"pl-en\">initialize</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">name</span><span class=\"pl-kos\">)</span>\n    <span class=\"pl-c1\">@name</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">name</span>\n  <span class=\"pl-k\">end</span>\n<span class=\"pl-k\">end</span></pre>\n</div>\n<div class=\"highlight highlight-source-ruby\">\n<pre><span class=\"pl-s1\">buddy</span> <span class=\"pl-c1\">=</span> <span class=\"pl-v\">Pet</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">new</span><span class=\"pl-kos\">(</span><span class=\"pl-s\">\"Buddy\"</span><span class=\"pl-kos\">)</span>\n<span class=\"pl-s1\">buddy</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">name</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s\">\"Chappie\"</span></pre>\n</div>\n<p><span>Considering the code above, what will&nbsp;</span><code>buddy.name</code><span>&nbsp;output?</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<strong>Source/s</strong>: <a title=\"Attribute Accessors\" href=\"/courses/3299/pages/attribute-accessors\" target=\"_blank\">Attribute Accessors</a>",
+      "answers": [
+        {
+          "id": 9107,
+          "text": "",
+          "html": "<pre><span>\"Chappie\"</span></pre>",
+          "comments": "",
+          "comments_html": "Exactly! The name was reassigned on the last line of the code.",
+          "weight": 100.0
+        },
+        {
+          "id": 9484,
+          "text": "",
+          "html": "<pre><span>\"Buddy\"</span></pre>",
+          "comments": "",
+          "comments_html": "Not quite. Check out the last two lines of code. What's happening on each of those lines?",
+          "weight": 0.0
+        },
+        {
+          "id": 2570,
+          "text": "",
+          "html": "<pre><span>ArgumentError</span></pre>",
+          "comments": "",
+          "comments_html": "Which line do you think will produce an error? What happens instead when you run the code? Why does that happen?",
+          "weight": 0.0
+        },
+        {
+          "id": 1809,
+          "text": "I don't know",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19088,
+      "id": 120544,
+      "quiz_group_id": null,
+      "assessment_question_id": 135532,
+      "position": null,
+      "question_name": "OO Syntax",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Consider the following code:</p>\n<div class=\"highlight highlight-source-ruby\">\n<pre><span class=\"pl-k\">class</span> <span class=\"pl-v\">Pet</span>\n  <span class=\"pl-en\">attr_accessor</span> <span class=\"pl-pds\">:name</span>\n\n  <span class=\"pl-k\">def</span> <span class=\"pl-en\">initialize</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">name</span><span class=\"pl-kos\">)</span>\n    <span class=\"pl-c1\">@name</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">name</span>\n  <span class=\"pl-k\">end</span>\n<span class=\"pl-k\">end</span></pre>\n</div>\n<div class=\"highlight highlight-source-ruby\">\n<pre><span class=\"pl-s1\">buddy</span> <span class=\"pl-c1\">=</span> <span class=\"pl-v\">Pet</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">new</span><span class=\"pl-kos\">(</span><span class=\"pl-s\">\"Buddy\"</span><span class=\"pl-kos\">)</span></pre>\n</div>\n<p><span>What will&nbsp;</span><code>buddy.name</code><span>&nbsp;in this example output?</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<strong>Source/s</strong>: <a title=\"Attribute Accessors\" href=\"/courses/3299/pages/attribute-accessors\" target=\"_blank\">Attribute Accessors</a>",
+      "answers": [
+        {
+          "id": 8613,
+          "text": "",
+          "html": "<pre><span>\"Buddy\"</span></pre>",
+          "comments": "",
+          "comments_html": "Correct! The value of <code>name</code> was set when the object was initialized. Because of the <code>attr_accessor</code> macro, we can read and write to the <code>name</code> instance variable.",
+          "weight": 100.0
+        },
+        {
+          "id": 2313,
+          "text": "",
+          "html": "<pre><span>ArgumentError</span></pre>",
+          "comments": "",
+          "comments_html": "Which line do you think will produce an error? What happens when you run the code? Why?",
+          "weight": 0.0
+        },
+        {
+          "id": 4814,
+          "text": "I don't know",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    }
+  ]
+}
