@@ -1,9 +1,9 @@
 {
   "quiz": {
-    "id": 37919,
+    "id": 53502,
     "title": "Object-Orientation Fundamentals Quiz",
-    "html_url": "https://learning.flatironschool.com/courses/5935/quizzes/37919",
-    "mobile_url": "https://learning.flatironschool.com/courses/5935/quizzes/37919?force_user=1&persist_headless=1",
+    "html_url": "https://learning.flatironschool.com/courses/7559/quizzes/53502",
+    "mobile_url": "https://learning.flatironschool.com/courses/7559/quizzes/53502?force_user=1&persist_headless=1",
     "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-3-quiz-object-orientation-fundamentals\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-3-quiz-object-orientation-fundamentals/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
@@ -26,7 +26,7 @@
     "locked_for_user": true,
     "lock_info": {
       "missing_permission": "participate_as_student",
-      "asset_string": "quizzes:quiz_37919"
+      "asset_string": "quizzes:quiz_53502"
     },
     "lock_explanation": "This quiz is currently locked.",
     "hide_results": null,
@@ -60,68 +60,67 @@
       "review_grades": true,
       "view_answer_audits": true
     },
-    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/5935/quizzes/37919/reports",
-    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/5935/quizzes/37919/statistics",
-    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/5935/quizzes/37919/submission_users/message",
+    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/7559/quizzes/53502/reports",
+    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/7559/quizzes/53502/statistics",
+    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/7559/quizzes/53502/submission_users/message",
     "section_count": 1,
     "important_dates": false,
-    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/5935/quizzes/37919/submission_versions",
-    "assignment_id": 209392,
+    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/7559/quizzes/53502/submission_versions",
+    "assignment_id": 263581,
     "one_time_results": false,
     "only_visible_to_overrides": false,
-    "assignment_group_id": 15695,
+    "assignment_group_id": 25101,
     "show_correct_answers_last_attempt": true,
-    "version_number": 9,
+    "version_number": 3,
     "has_access_code": false,
     "post_to_sis": false,
-    "migration_id": "ga182108f248509461563dc8cd93dc953",
+    "migration_id": "ge2bd2b45bac9a46d769a13561d0bf3d1",
     "in_paced_course": false,
     "question_types": [
-      "multiple_choice_question",
-      "short_answer_question"
+
     ]
   },
   "questions": [
     {
-      "id": 272169,
-      "quiz_id": 37919,
+      "id": 366062,
+      "quiz_id": 53502,
       "quiz_group_id": null,
-      "assessment_question_id": 469350,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 1,
       "question_name": "OO Concepts",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>A class is like a blueprint that defines how to build an object.</p>",
+      "question_text": "A class is like a blueprint that defines how to build an object.",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Classes and Instances",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/5935/pages/classes-and-instances\">Classes and Instances</a></li></ul><p></p>",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7559/pages/classes-and-instances\">Classes and Instances</a></li></ul><p></p>",
       "answers": [
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_5958",
           "id": 5958,
-          "text": "",
-          "html": "<p>True</p>",
-          "comments": "",
-          "comments_html": "<p>Perfect! Objects are instantiated from classes and have access to the instance\nmethods and variables defined in the class.</p>",
-          "weight": 100.0
+          "text": "True",
+          "comments": "Perfect! Objects are instantiated from classes and have access to the instance methods and variables defined in the class.",
+          "comments_html": "Perfect! Objects are instantiated from classes and have access to the instance\nmethods and variables defined in the class."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_9749",
           "id": 9749,
-          "text": "",
-          "html": "<p>False</p>",
-          "comments": "",
-          "comments_html": "<p>You might be confusing objects and classes. Be sure to review the sources listed\nin the feedback.</p>",
-          "weight": 0.0
+          "text": "False",
+          "comments": "You might be confusing objects and classes. Be sure to review the sources listed in the feedback.",
+          "comments_html": "You might be confusing objects and classes. Be sure to review the sources listed\nin the feedback."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_7718",
           "id": 7718,
-          "text": "",
-          "html": "<p>I don't know</p>",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0
+          "text": "I don't know",
+          "html": "I don't know",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
         }
       ],
       "variables": null,
@@ -132,61 +131,64 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "id": 272170,
-      "quiz_id": 37919,
+      "id": 366063,
+      "quiz_id": 53502,
       "quiz_group_id": null,
-      "assessment_question_id": 469349,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 2,
       "question_name": "OO Syntax",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>To define a class, what syntax is used?</p>",
+      "question_text": "To define a class, what syntax is used?",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Classes and Instances",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/5935/pages/classes-and-instances\">Classes and Instances</a></li></ul><p></p>",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7559/pages/classes-and-instances\">Classes and Instances</a></li></ul><p></p>",
       "answers": [
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_522",
           "id": 522,
-          "text": "",
+          "text": "class Pet: pass",
           "html": "<div class=\"highlight\"><pre class=\"highlight python\"><code><span class=\"k\">class</span> <span class=\"nc\">Pet</span><span class=\"p\">:</span>\n  <span class=\"k\">pass</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Correct! The declaration always starts with <code>class</code> with a colon</p>",
-          "weight": 100.0
+          "comments": "Correct! The declaration always starts with class with a colon",
+          "comments_html": "Correct! The declaration always starts with <code>class</code> with a colon"
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_3613",
           "id": 3613,
-          "text": "",
+          "text": "Class Pet: pass",
           "html": "<div class=\"highlight\"><pre class=\"highlight python\"><code><span class=\"n\">Class</span> <span class=\"n\">Pet</span><span class=\"p\">:</span>\n  <span class=\"k\">pass</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>This syntax looks a little off. Try running it in the REPL to see what happens.</p>",
-          "weight": 0.0
+          "comments": "This syntax looks a little off. Try running it in the REPL to see what happens."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_2116",
           "id": 2116,
-          "text": "",
+          "text": "Class pet pass",
           "html": "<div class=\"highlight\"><pre class=\"highlight python\"><code><span class=\"n\">Class</span> <span class=\"n\">pet</span>\n  <span class=\"k\">pass</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Something is not right about this. Try running this code in the REPL to see the\nresult.</p>",
-          "weight": 0.0
+          "comments": "Something is not right about this. Try running this code in the REPL to see the result.",
+          "comments_html": "Something is not right about this. Try running this code in the REPL to see the\nresult."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_1422",
           "id": 1422,
-          "text": "",
+          "text": "class pet pass",
           "html": "<div class=\"highlight\"><pre class=\"highlight python\"><code><span class=\"k\">class</span> <span class=\"nc\">pet</span>\n  <span class=\"k\">pass</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Something isn't quite right with this syntax. Try running it in the REPL to see\nwhat happens.</p>",
-          "weight": 0.0
+          "comments": "Something isn't quite right with this syntax. Try running it in the REPL to see what happens.",
+          "comments_html": "Something isn't quite right with this syntax. Try running it in the REPL to see\nwhat happens."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_3366",
           "id": 3366,
-          "text": "",
-          "html": "<p>I don't know</p>",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0
+          "text": "I don't know",
+          "html": "I don't know",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
         }
       ],
       "variables": null,
@@ -197,11 +199,11 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "id": 272171,
-      "quiz_id": 37919,
+      "id": 366064,
+      "quiz_id": 53502,
       "quiz_group_id": null,
-      "assessment_question_id": 469351,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 3,
       "question_name": "OO Syntax",
       "question_type": "multiple_choice_question",
       "question_text": "<p>Consider the following code:</p>\n<div class=\"highlight\"><pre class=\"highlight python\"><code><span class=\"k\">class</span> <span class=\"nc\">Pet</span><span class=\"p\">:</span>\n  <span class=\"k\">def</span> <span class=\"nf\">__init__</span> <span class=\"p\">(</span><span class=\"bp\">self</span><span class=\"p\">,</span> <span class=\"n\">name</span><span class=\"p\">):</span>\n    <span class=\"bp\">self</span><span class=\"p\">.</span><span class=\"n\">name</span> <span class=\"o\">=</span> <span class=\"n\">name</span>\n\n<span class=\"n\">dog</span> <span class=\"o\">=</span> <span class=\"n\">Pet</span><span class=\"p\">(</span><span class=\"s\">\"Harpo\"</span><span class=\"p\">)</span>\n</code></pre></div>\n<p>In the example above, <code>Pet(\"Harpo\")</code> will instantiate a new instance of the\n<code>Pet</code> class.</p>",
@@ -209,33 +211,33 @@
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Classes and Instances",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/5935/pages/classes-and-instances\">Classes and Instances</a></li></ul><p></p>",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7559/pages/classes-and-instances\">Classes and Instances</a></li></ul><p></p>",
       "answers": [
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_947",
           "id": 947,
-          "text": "",
-          "html": "<p>True</p>",
-          "comments": "",
-          "comments_html": "<p>Yes! The class has been declared correctly, so a new instance will be returned\nwhen the code is run.</p>",
-          "weight": 100.0
+          "text": "True",
+          "comments": "Yes! The class has been declared correctly, so a new instance will be returned when the code is run.",
+          "comments_html": "Yes! The class has been declared correctly, so a new instance will be returned\nwhen the code is run."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_8520",
           "id": 8520,
-          "text": "",
-          "html": "<p>False</p>",
-          "comments": "",
-          "comments_html": "<p>Try running the code. Why did you think a new instance of <code>Pet</code> would not be\ncreated?</p>",
-          "weight": 0.0
+          "text": "False",
+          "comments": "Try running the code. Why did you think a new instance of Pet would not be created?",
+          "comments_html": "Try running the code. Why did you think a new instance of <code>Pet</code> would not be\ncreated?"
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_8007",
           "id": 8007,
-          "text": "",
-          "html": "<p>I don't know</p>",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0
+          "text": "I don't know",
+          "html": "I don't know",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
         }
       ],
       "variables": null,
@@ -246,11 +248,11 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "id": 272172,
-      "quiz_id": 37919,
+      "id": 366065,
+      "quiz_id": 53502,
       "quiz_group_id": null,
-      "assessment_question_id": 469352,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 4,
       "question_name": "OO Syntax",
       "question_type": "multiple_choice_question",
       "question_text": "<p>Consider the following code:</p>\n<div class=\"highlight\"><pre class=\"highlight python\"><code><span class=\"k\">class</span> <span class=\"nc\">Pet</span><span class=\"p\">:</span>\n  <span class=\"k\">def</span> <span class=\"nf\">__init__</span> <span class=\"p\">(</span><span class=\"bp\">self</span><span class=\"p\">,</span> <span class=\"n\">name</span><span class=\"p\">):</span>\n    <span class=\"bp\">self</span><span class=\"p\">.</span><span class=\"n\">name</span> <span class=\"o\">=</span> <span class=\"n\">name</span> \n\n  <span class=\"k\">def</span> <span class=\"nf\">print_name</span><span class=\"p\">(</span><span class=\"bp\">self</span><span class=\"p\">,</span> <span class=\"n\">name</span><span class=\"p\">):</span>\n    <span class=\"k\">print</span><span class=\"p\">(</span><span class=\"bp\">self</span><span class=\"p\">.</span><span class=\"n\">name</span><span class=\"p\">)</span>\n\n<span class=\"n\">dog</span> <span class=\"o\">=</span> <span class=\"n\">Pet</span>\n<span class=\"n\">dog</span><span class=\"p\">.</span><span class=\"n\">print_name</span><span class=\"p\">()</span>\n</code></pre></div>\n<p><code>Pet</code> in this example will instantiate a new instance of the <code>Pet</code> class and\n<code>print_name()</code> will print nothing.</p>",
@@ -258,33 +260,33 @@
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Object Initialization",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/5935/pages/object-initialization\">Object Initialization</a></li></ul><p></p>",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7559/pages/object-initialization\">Object Initialization</a></li></ul><p></p>",
       "answers": [
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_4651",
           "id": 4651,
-          "text": "",
-          "html": "<p>False</p>",
-          "comments": "",
-          "comments_html": "<p>Correct! We need to provide a name when instantiating an instance of the <code>Pet</code>\nclass because that's what <code>initialize</code> expects. We'll get a TypeError when we\ntry to use the name attribute.</p>",
-          "weight": 100.0
+          "text": "False",
+          "comments": "Correct! We need to provide a name when instantiating an instance of the Pet class because that's what initialize expects. We'll get a TypeError when we try to use the name attribute.",
+          "comments_html": "Correct! We need to provide a name when instantiating an instance of the <code>Pet</code>\nclass because that's what <code>initialize</code> expects. We'll get a TypeError when we\ntry to use the name attribute."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_9587",
           "id": 9587,
-          "text": "",
-          "html": "<p>True</p>",
-          "comments": "",
-          "comments_html": "<p>This is a bit of a tough question. Take a look at the <code>__init__</code> function\nand then the last line of code. What do you notice?</p>",
-          "weight": 0.0
+          "text": "True",
+          "comments": "This is a bit of a tough question. Take a look at the __init__ function and then the last line of code. What do you notice?",
+          "comments_html": "This is a bit of a tough question. Take a look at the <code>__init__</code> function\nand then the last line of code. What do you notice?"
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_8459",
           "id": 8459,
-          "text": "",
-          "html": "<p>I don't know</p>",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0
+          "text": "I don't know",
+          "html": "I don't know",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
         }
       ],
       "variables": null,
@@ -295,11 +297,11 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "id": 272173,
-      "quiz_id": 37919,
+      "id": 366066,
+      "quiz_id": 53502,
       "quiz_group_id": null,
-      "assessment_question_id": 469359,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 5,
       "question_name": "Getter Methods",
       "question_type": "multiple_choice_question",
       "question_text": "<p>Consider the following code:</p>\n<div class=\"highlight\"><pre class=\"highlight python\"><code><span class=\"k\">class</span> <span class=\"nc\">Pet</span><span class=\"p\">:</span>\n  <span class=\"k\">def</span> <span class=\"nf\">__init__</span> <span class=\"p\">(</span><span class=\"bp\">self</span><span class=\"p\">,</span> <span class=\"n\">name</span><span class=\"p\">):</span>\n    <span class=\"bp\">self</span><span class=\"p\">.</span><span class=\"n\">name</span> <span class=\"o\">=</span> <span class=\"n\">name</span>\n\n<span class=\"n\">rabbit</span> <span class=\"o\">=</span> <span class=\"n\">Pet</span><span class=\"p\">(</span><span class=\"s\">\"Jabby\"</span><span class=\"p\">)</span>\n<span class=\"k\">print</span><span class=\"p\">(</span><span class=\"n\">rabbit</span><span class=\"p\">.</span><span class=\"n\">name</span><span class=\"p\">)</span>\n</code></pre></div>\n<p><code>rabbit.name</code> in this example will return <code>\"Jabby\"</code>.</p>",
@@ -307,33 +309,33 @@
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Object Attributes",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/5935/pages/object-attributes\">Object Attributes</a></li></ul><p></p>",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7559/pages/object-attributes\">Object Attributes</a></li></ul><p></p>",
       "answers": [
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_5564",
           "id": 5564,
-          "text": "",
-          "html": "<p>True</p>",
-          "comments": "",
-          "comments_html": "<p>Yes! The <code>name</code> method will return the value stored in <code>self.name</code>, which was\nset to <code>\"Jabby\"</code> when this pet was initialized.</p>",
-          "weight": 100.0
+          "text": "True",
+          "comments": "Yes! The name method will return the value stored in self.name, which was set to \"Jabby\" when this pet was initialized.",
+          "comments_html": "Yes! The <code>name</code> method will return the value stored in <code>self.name</code>, which was\nset to <code>\"Jabby\"</code> when this pet was initialized."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_6944",
           "id": 6944,
-          "text": "",
-          "html": "<p>False</p>",
-          "comments": "",
-          "comments_html": "<p>What happens when you run the code? How and why does that differ from what you\nexpected? Which methods are available in <code>Pet</code> and what do they do?</p>",
-          "weight": 0.0
+          "text": "False",
+          "comments": "What happens when you run the code? How and why does that differ from what you expected? Which methods are available in Pet and what do they do?",
+          "comments_html": "What happens when you run the code? How and why does that differ from what you\nexpected? Which methods are available in <code>Pet</code> and what do they do?"
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_641",
           "id": 641,
-          "text": "",
-          "html": "<p>I don't know</p>",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0
+          "text": "I don't know",
+          "html": "I don't know",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
         }
       ],
       "variables": null,
@@ -344,11 +346,11 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "id": 272175,
-      "quiz_id": 37919,
+      "id": 366067,
+      "quiz_id": 53502,
       "quiz_group_id": null,
-      "assessment_question_id": 469355,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 6,
       "question_name": "OO Syntax",
       "question_type": "short_answer_question",
       "question_text": "<p>Consider the following code:</p>\n<div class=\"highlight\"><pre class=\"highlight python\"><code><span class=\"k\">class</span> <span class=\"nc\">Pet</span><span class=\"p\">:</span>\n  <span class=\"k\">def</span> <span class=\"nf\">__init__</span> <span class=\"p\">(</span><span class=\"bp\">self</span><span class=\"p\">,</span> <span class=\"n\">name</span><span class=\"p\">):</span>\n    <span class=\"bp\">self</span><span class=\"p\">.</span><span class=\"n\">name</span> <span class=\"o\">=</span> <span class=\"n\">name</span>\n\n<span class=\"n\">rabbit</span> <span class=\"o\">=</span> <span class=\"n\">Pet</span><span class=\"p\">(</span><span class=\"s\">\"Jabby\"</span><span class=\"p\">)</span>\n<span class=\"n\">rabbit</span><span class=\"p\">.</span><span class=\"n\">name</span> <span class=\"o\">=</span> <span class=\"s\">\"Chokola\"</span>\n<span class=\"k\">print</span><span class=\"p\">(</span><span class=\"n\">rabbit</span><span class=\"p\">.</span><span class=\"n\">name</span><span class=\"p\">)</span>\n</code></pre></div>\n<p>After running the code in the example above, what will\n<code>print(rabbit.name)</code> return?</p>",
@@ -356,30 +358,27 @@
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Object Attributes",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/5935/pages/object-attributes\">Object Attributes</a></li></ul><p></p>",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7559/pages/object-attributes\">Object Attributes</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "6763",
           "text": "Chokola",
-          "comments": "",
-          "comments_html": "<p>Yes! The rabbit's name was reassigned to \"Chokola\".</p>",
-          "weight": 100
+          "weight": 100,
+          "comments": "Yes! The rabbit's name was reassigned to \"Chokola\".",
+          "id": 6763
         },
         {
-          "id": "763",
           "text": "\"Chokola\"",
-          "comments": "",
-          "comments_html": "<p>Yes! The rabbit's name was reassigned to \"Chokola\".</p>",
-          "weight": 100
+          "weight": 100,
+          "comments": "Yes! The rabbit's name was reassigned to \"Chokola\".",
+          "id": 763
         },
         {
-          "id": "6367",
           "text": "'Chokola'",
-          "comments": "",
-          "comments_html": "<p>Yes! The rabbit's name was reassigned to \"Chokola\".</p>",
-          "weight": 100
+          "weight": 100,
+          "comments": "Yes! The rabbit's name was reassigned to \"Chokola\".",
+          "id": 6367
         }
       ],
       "variables": null,
@@ -390,11 +389,11 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "id": 272178,
-      "quiz_id": 37919,
+      "id": 366068,
+      "quiz_id": 53502,
       "quiz_group_id": null,
-      "assessment_question_id": 469356,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 7,
       "question_name": "OO Syntax",
       "question_type": "multiple_choice_question",
       "question_text": "<p>Consider the following code:</p>\n<div class=\"highlight\"><pre class=\"highlight python\"><code><span class=\"k\">class</span> <span class=\"nc\">Pet</span><span class=\"p\">:</span>\n\n  <span class=\"k\">def</span> <span class=\"nf\">__init__</span> <span class=\"p\">(</span><span class=\"bp\">self</span><span class=\"p\">,</span> <span class=\"n\">name</span><span class=\"p\">):</span>\n    <span class=\"bp\">self</span><span class=\"p\">.</span><span class=\"n\">name</span> <span class=\"o\">=</span> <span class=\"n\">name</span>\n\n<span class=\"n\">buddy</span> <span class=\"o\">=</span> <span class=\"n\">Pet</span><span class=\"p\">(</span><span class=\"s\">\"Buddy\"</span><span class=\"p\">)</span>\n<span class=\"n\">buddy</span><span class=\"p\">.</span><span class=\"n\">name</span> <span class=\"o\">=</span> <span class=\"s\">\"Chappie\"</span>\n<span class=\"k\">print</span><span class=\"p\">(</span><span class=\"n\">buddy</span><span class=\"p\">.</span><span class=\"n\">name</span><span class=\"p\">)</span>\n</code></pre></div>\n<p>Considering the code above, what will <code>buddy.name</code> output?</p>",
@@ -402,41 +401,43 @@
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Attribute Accessors",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/5935/pages/attribute-accessors\">Attribute Accessors</a></li></ul><p></p>",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7559/pages/attribute-accessors\">Attribute Accessors</a></li></ul><p></p>",
       "answers": [
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_5850",
           "id": 5850,
-          "text": "",
+          "text": "\"Chappie\"",
           "html": "<div class=\"highlight\"><pre class=\"highlight python\"><code><span class=\"s\">\"Chappie\"</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Exactly! The name was reassigned on the last line of the code.</p>",
-          "weight": 100.0
+          "comments": "Exactly! The name was reassigned on the last line of the code."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_8712",
           "id": 8712,
-          "text": "",
+          "text": "\"Buddy\"",
           "html": "<div class=\"highlight\"><pre class=\"highlight python\"><code><span class=\"s\">\"Buddy\"</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Not quite. Check out the last two lines of code. What's happening on each of\nthose lines?</p>",
-          "weight": 0.0
+          "comments": "Not quite. Check out the last two lines of code. What's happening on each of those lines?",
+          "comments_html": "Not quite. Check out the last two lines of code. What's happening on each of\nthose lines?"
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_7975",
           "id": 7975,
-          "text": "",
+          "text": "TypeError",
           "html": "<div class=\"highlight\"><pre class=\"highlight python\"><code><span class=\"nb\">TypeError</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Which line do you think will produce an error? What happens instead when you run\nthe code? Why does that happen?</p>",
-          "weight": 0.0
+          "comments": "Which line do you think will produce an error? What happens instead when you run the code? Why does that happen?",
+          "comments_html": "Which line do you think will produce an error? What happens instead when you run\nthe code? Why does that happen?"
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_1473",
           "id": 1473,
-          "text": "",
-          "html": "<p>I don't know</p>",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0
+          "text": "I don't know",
+          "html": "I don't know",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
         }
       ],
       "variables": null,
@@ -447,11 +448,11 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "id": 272179,
-      "quiz_id": 37919,
+      "id": 366069,
+      "quiz_id": 53502,
       "quiz_group_id": null,
-      "assessment_question_id": 469357,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 8,
       "question_name": "OO Syntax",
       "question_type": "multiple_choice_question",
       "question_text": "<p>Consider the following code:</p>\n<div class=\"highlight\"><pre class=\"highlight python\"><code><span class=\"k\">class</span> <span class=\"nc\">Pet</span><span class=\"p\">:</span>\n\n  <span class=\"k\">def</span> <span class=\"nf\">__init__</span> <span class=\"p\">(</span><span class=\"bp\">self</span><span class=\"p\">,</span> <span class=\"n\">name</span><span class=\"p\">):</span>\n    <span class=\"bp\">self</span><span class=\"p\">.</span><span class=\"n\">name</span> <span class=\"o\">=</span> <span class=\"n\">name</span>\n\n<span class=\"n\">buddy</span> <span class=\"o\">=</span> <span class=\"n\">Pet</span><span class=\"p\">(</span><span class=\"s\">\"Buddy\"</span><span class=\"p\">)</span>\n</code></pre></div>\n<p>What will <code>buddy.name</code> in this example output?</p>",
@@ -459,33 +460,35 @@
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Attribute Accessors",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/5935/pages/attribute-accessors\">Attribute Accessors</a></li></ul><p></p>",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7559/pages/attribute-accessors\">Attribute Accessors</a></li></ul><p></p>",
       "answers": [
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_4527",
           "id": 4527,
-          "text": "",
+          "text": "\"Buddy\"",
           "html": "<div class=\"highlight\"><pre class=\"highlight python\"><code><span class=\"s\">\"Buddy\"</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Correct! The value of <code>name</code> was set when the object was initialized.</p>",
-          "weight": 100.0
+          "comments": "Correct! The value of name was set when the object was initialized.",
+          "comments_html": "Correct! The value of <code>name</code> was set when the object was initialized."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_8861",
           "id": 8861,
-          "text": "",
+          "text": "TypeError",
           "html": "<div class=\"highlight\"><pre class=\"highlight python\"><code><span class=\"nb\">TypeError</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Which line do you think will produce an error? What happens when you run the\ncode? Why?</p>",
-          "weight": 0.0
+          "comments": "Which line do you think will produce an error? What happens when you run the code? Why?",
+          "comments_html": "Which line do you think will produce an error? What happens when you run the\ncode? Why?"
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_6715",
           "id": 6715,
-          "text": "",
-          "html": "<p>I don't know</p>",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0
+          "text": "I don't know",
+          "html": "I don't know",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
         }
       ],
       "variables": null,
